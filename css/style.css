@@ -1,0 +1,197 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+
+/* Header */
+header#head{
+	width: 100%;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	height: 80px;
+	border-bottom: 2px #fff solid;
+}
+header#head h1{
+	margin: 20px 20px;
+	display: inline-block;
+	float: left;
+	font-family: Raleway-ExtraBold;
+	color: #fff;
+}
+header#head ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+header#head li{
+	display: inline-block;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+	border: 2px #51B6D9 solid;
+	border-radius: 50px;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	background: #51B6D9;
+}
+.logo:hover{
+	border: 2px #fff solid;
+}
+.logo img{
+	margin-top: 3px;
+}
+#title h1:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Cover */
+section#cover{
+	height: 600px;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-bottom: 2px #fff solid;
+	margin-top: 80px;
+	padding-top: 80px;
+	text-align: center;
+}
+section#cover h1{
+	color: #fff;
+	font-family: Raleway-Bold;
+	font-size: 4em;
+}
+section#cover h3{
+	color: #fff;
+	font-family: Raleway-Bold;
+	font-size: 3em;
+}
+#social{
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 160px;
+}
+.twitter{
+	background-image: url("../img/twitter.png");
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border: 2px rgba(255, 255, 255, 0.0) solid;
+	background-repeat: no-repeat;
+}
+.twitter:hover{
+	border: 2px #fff solid;
+	border-radius: 120px;
+}
+.insta{
+	background-image: url("../img/instagram.png");
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border: 2px rgba(255, 255, 255, 0.0) solid;
+	background-repeat: no-repeat;
+}
+.insta:hover{
+	border: 2px #fff solid;
+	border-radius: 120px;
+}
+.snap{
+	background-image: url("../img/snapchat.png");
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border: 2px rgba(255, 255, 255, 0.0) solid;
+	background-repeat: no-repeat;
+}
+.snap:hover{
+	border: 2px #fff solid;
+	border-radius: 120px;
+}
+.youtube{
+	background-image: url("../img/youtube.png");
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border: 2px rgba(255, 255, 255, 0.0) solid;
+	background-repeat: no-repeat;
+}
+.youtube:hover{
+	border: 2px #fff solid;
+	border-radius: 120px;
+}
+
+/* Buttons */
+.btn{
+	display: inline-block;
+	text-decoration: none;
+}
+.btn-nav{
+	padding: 10px 40px;
+	color: #999999;
+	font-family: Raleway-Light;
+	font-size: 1.4em;
+}
+.btn-nav:hover{
+	color: #fff;
+}
+.btn-nav-signup{
+	padding: 5px 20px;
+	color: #fff;
+	font-size: 1.8em;
+	font-family: Raleway-Light;
+	border: 2px #51B6D9 solid;
+	border-radius: 100px;
+	margin: 15px;
+	background: #51B6D9;
+}
+.btn-nav-signup:hover{
+	border: 2px #fff solid;
+}
+.btn-shopnow{
+	padding: 5px 20px;
+	color: #fff;
+	font-size: 1.8em;
+	font-family: Raleway-Light;
+	border: 2px #51B6D9 solid;
+	border-radius: 100px;
+	background: #51B6D9;
+	margin-top: 60px;
+}
+.btn-shopnow:hover{
+	border: 2px #fff solid;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+/* Fonts */
+@font-face{
+	font-family: Raleway-ExtraBold;
+	src: url(../font/raleway/Raleway-ExtraBold.ttf);
+}
+@font-face{
+	font-family: Raleway-Bold;
+	src: url(../font/raleway/Raleway-Bold.ttf);
+}
+@font-face{
+	font-family: Raleway-Light;
+	src: url(../font/raleway/Raleway-Light.ttf);
+}
