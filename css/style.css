@@ -156,7 +156,7 @@ section#cover h3{
 .modal:before{
 	content: "";
 	position: fixed;
-	/*display: none;*/
+	display: none;
 	background: rgba(0, 0, 0, 0.8);
 	top: 0;
 	left: 0;
