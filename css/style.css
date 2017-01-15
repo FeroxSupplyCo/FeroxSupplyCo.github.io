@@ -119,6 +119,7 @@ section#cover h3{
 	display: inline-block;
 	border: 2px rgba(255, 255, 255, 0.0) solid;
 	background-repeat: no-repeat;
+	cursor: pointer;
 }
 .snap:hover{
 	border: 2px #fff solid;
