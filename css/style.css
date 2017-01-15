@@ -164,9 +164,9 @@ section#cover h3{
 	width: 100%;
 }
 .modal:target .modal-container{
-	transform: translate(-50%, -200px);
-	-webkit-transform: translate(-50%, -200px);
-	-ms-transform: translate(-50%, -200px);
+	transform: translate(-20%, -200px);
+	-webkit-transform: translate(-20%, -200px);
+	-ms-transform: translate(-20%, -200px);
 }
 
 /* Buttons */
