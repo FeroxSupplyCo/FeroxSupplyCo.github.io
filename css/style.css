@@ -124,8 +124,8 @@ section#cover h3{
 	border: 2px #fff solid;
 	border-radius: 120px;
 }
-.youtube{
-	background-image: url("../img/youtube.png");
+.facebook{
+	background-image: url("../img/facebook.png");
 	width: 40px;
 	height: 40px;
 	background-size: cover;
@@ -135,7 +135,7 @@ section#cover h3{
 	border: 2px rgba(255, 255, 255, 0.0) solid;
 	background-repeat: no-repeat;
 }
-.youtube:hover{
+.facebook:hover{
 	border: 2px #fff solid;
 	border-radius: 120px;
 }
