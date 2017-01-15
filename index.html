@@ -9,6 +9,19 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta name="author" content="Hunter Hart">
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script>
+			$(document).ready(function(){
+		  	$(".snapmodal").click(function(){
+					$(".modal").fadeIn();
+			  });
+			});
+			$(document).ready(function(){
+		  	$(".close").click(function(){
+					$(".modal").fadeOut();
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<header id="head">
@@ -33,14 +46,16 @@
 			<div id="social">
 				<a href="https://twitter.com/FeroxSupplyCo"><div class="twitter"></div></a>
 				<a href="https://www.instagram.com/feroxsupplyco/"><div class="insta"></div></a>
-				<a href="#snapmodal"><div class="snap"></div></a>
+				<div class="snap snapmodal"></div>
 				<a href="https://www.facebook.com/feroxsupplyco/"><div class="facebook"></div></a>
 			</div>
 		</section>
-		<div class="modal" id="snapmodal">
+		<div class="modal">
 			<div class="modal-container">
-				<p>I love cats</p>
-				<a href="https://feroxsupplyco.github.io"><span>&times;</span></a>
+				<img src="img/snapcode.png" width="80%">
+				<h1>Ferox Supply Co</h1>
+				<h2>feroxsupplyco</h2>
+				<span class="btn btn-closemodal close">Close</span>
 			</div>
 		</div>
 	</body>

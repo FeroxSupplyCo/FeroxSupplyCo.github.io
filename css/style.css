@@ -65,19 +65,19 @@ section#cover{
 }
 section#cover h1{
 	color: #fff;
-	font-family: Raleway-Bold;
+	font-family: Raleway-ExtraBold;
 	font-size: 4em;
 }
 section#cover h3{
 	color: #fff;
-	font-family: Raleway-Bold;
+	font-family: KaushawnScript-Regular;
 	font-size: 3em;
 }
 #social{
 	position: absolute;
 	left: 50%;
 	margin-left: -100px;
-	margin-top: 160px;
+	margin-top: 140px;
 }
 .twitter{
 	background-image: url("../img/twitter.png");
@@ -123,6 +123,7 @@ section#cover h3{
 .snap:hover{
 	border: 2px #fff solid;
 	border-radius: 120px;
+	cursor: pointer;
 }
 .facebook{
 	background-image: url("../img/facebook.png");
@@ -146,27 +147,34 @@ section#cover h3{
 	background: #fff;
 	width: 70%;
 	max-width: 400px;
+	top: 50%;
 	left: 50%;
 	padding: 20px;
-	border-radius: 8px;
-	transform: translate(-50%, -1000px);
-	-webkit-transform: translate(-50%, -1000px);
-	-ms-transform: translate(-50%, -1000px);
+	border-radius: 16px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
 }
-.modal:before{
-	content: "";
+.modal{
 	position: fixed;
-	display: none;
 	background: rgba(0, 0, 0, 0.8);
 	top: 0;
 	left: 0;
 	height: 100vh;
 	width: 100%;
+	display: none;
 }
-.modal:target .modal-container{
-	transform: translate(-20%, -200px);
-	-webkit-transform: translate(-20%, -200px);
-	-ms-transform: translate(-20%, -200px);
+.modal h1{
+	font-family: Raleway-Bold;
+	font-size: 2em;
+	margin-top: -4px;
+}
+.modal h2{
+	color: #777;
+	font-family: Raleway-Light;
+	font-size: 1.2em;
+	margin-top: -10px;
 }
 
 /* Buttons */
@@ -210,6 +218,20 @@ section#cover h3{
 	border: 2px #fff solid;
 	background: rgba(0, 0, 0, 0.4);
 }
+.btn-closemodal{
+	padding: 5px 20px;
+	color: #fff;
+	font-size: 1.8em;
+	font-family: Raleway-Light;
+	border: 2px #51B6D9 solid;
+	border-radius: 8px;
+	background: #51B6D9;
+}
+.btn-closemodal:hover{
+	background: rgba(0, 0, 0, 0.0);
+	color: #51B6D9;
+	cursor: pointer;
+}
 
 /* Fonts */
 @font-face{
@@ -223,4 +245,8 @@ section#cover h3{
 @font-face{
 	font-family: Raleway-Light;
 	src: url(../font/raleway/Raleway-Light.ttf);
+}
+@font-face{
+	font-family: KaushawnScript-Regular;
+	src: url(../font/kaushan-script/KaushanScript-Regular.otf);
 }
