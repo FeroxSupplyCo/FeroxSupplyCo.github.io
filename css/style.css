@@ -198,8 +198,7 @@ section#two h3{
 }
 .featureditem{
 	display: inline-block;
-	width: 400px;
-	height: 400px;
+	width: 30%;
 	border: 2px #333 dotted;
 	border-radius: 200px;
 	margin: 10px;
@@ -207,6 +206,8 @@ section#two h3{
 .featureditem1{
 	background: url('../img/logo-nocircle.png');
 	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
 .featureditem2{
 	background: url('../img/logo-crown.png');
