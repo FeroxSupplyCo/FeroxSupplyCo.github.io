@@ -12,51 +12,86 @@
 		<script src="js/jquery-3.1.1.min.js"></script>
 		<script>
 			$(document).ready(function(){
-		  	$(".snapmodal").click(function(){
-					$(".modal").fadeIn();
+		  	$(".snapchatmodal").click(function(){
+					$(".snapmodal").fadeIn();
 			  });
 			});
 			$(document).ready(function(){
 		  	$(".close").click(function(){
-					$(".modal").fadeOut();
+					$(".snapmodal").fadeOut();
+				});
+			});
+			$(document).ready(function(){
+		  	$(".logo1modal").click(function(){
+					$(".logomodal").fadeIn();
+			  });
+			});
+			$(document).ready(function(){
+		  	$(".close").click(function(){
+					$(".logomodal").fadeOut();
 				});
 			});
 		</script>
 	</head>
 	<body>
-		<header id="head">
-			<a href="index.html"><div id="title">
-				<div class="logo">
-					<img src='img/logo-crown.png' height="50px" width="50px">
-				</div>
-				<h1>Ferox Supply & Co</h1>
-			</div></a>
-			<div id="nav">
-				<ul>
-					<a href="index.html"><li class="btn btn-nav">Home</li></a>
-					<a href="#"><li class="btn btn-nav">Shop</li><a>
-					<a href="#"><li class="btn btn-nav-signup">Signup</li></a>
-				</ul>
+		<div class="coverimage">
+			<div class="darken">
+				<header id="head">
+					<div id="title">
+						<div class="logo logo1modal">
+							<img src='img/logo-crown.png' height="50px" width="50px">
+						</div>
+						<a href="index.html"><h1>Ferox Supply & Co</h1></a>
+					</div>
+					<div id="nav">
+						<ul>
+							<a href="index.html"><li class="btn btn-nav">Home</li></a>
+							<a href="#"><li class="btn btn-nav">Shop</li><a>
+							<a href="#"><li class="btn btn-nav-signup">Subscribe</li></a>
+						</ul>
+					</div>
+				</header>
+				<section id="cover">
+					<h1>Train Insane or Stay The Same</h1>
+					<h3>Live Life Fearless</h3>
+					<a href="#"><div class="btn btn-shopnow">Shop Now</div></a>
+					<div id="social">
+						<a href="https://twitter.com/FeroxSupplyCo"><div class="twitter"></div></a>
+						<a href="https://www.instagram.com/feroxsupplyco/"><div class="insta"></div></a>
+						<div class="snap snapchatmodal"></div>
+						<a href="https://www.facebook.com/feroxsupplyco/"><div class="facebook"></div></a>
+					</div>
+				</section>
 			</div>
-		</header>
-		<section id="cover">
-			<h1>Ferox Clothing and Accessories</h1>
-			<h3>Live Life Fearless</h3>
-			<a href="#"><div class="btn btn-shopnow">Shop Now</div></a>
-			<div id="social">
-				<a href="https://twitter.com/FeroxSupplyCo"><div class="twitter"></div></a>
-				<a href="https://www.instagram.com/feroxsupplyco/"><div class="insta"></div></a>
-				<div class="snap snapmodal"></div>
-				<a href="https://www.facebook.com/feroxsupplyco/"><div class="facebook"></div></a>
-			</div>
-		</section>
-		<div class="modal">
-			<div class="modal-container">
+		</div>
+		<div class="snapmodal">
+			<div class="snapmodal-container">
 				<img src="img/snapcode.png" width="80%">
 				<h1>Ferox</h1>
 				<h2>feroxsupplyco</h2>
 				<span class="btn btn-closemodal close">Close</span>
 			</div>
 		</div>
+		<div class="logomodal">
+			<div class="logomodal-container">
+				<img src="img/logo-circle.png" width="100%">
+				<span class="btn btn-closemodal close">Close</span>
+			</div>
+		</div>
+		<section id="one">
+			<div class="container">
+				<h1>About Us</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</section>
+		<section id=two>
+			<div class="container">
+				<h1>Featured Store Items</h1>
+				<h3>Visit the store tab to see more.</h3>
+				<div class="featureditem featureditem1"></div>
+				<div class="featureditem featureditem2"></div>
+				<div class="featureditem featureditem3"></div>
+			</div>
+		</section>
 	</body>
 </html>
