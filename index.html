@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ferox Supply Co</title>
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Hunter Hart">
+		<link rel="icon" href="img/favicon.ico">
+	</head>
+	<body>
+		<div id="container">
+		  <h1>We're sorry!</h1>
+		  <h2>This website is currently under maintenance.</h2>
+		  <p>For further information, please email us at:<br>feroxsupplyco@gmail.com</p>
+		  <img src="img/Logo-Rainbow-Vector.png" height="250px" width="250px">
+		</div>
+		<div id="social">
+		  <img id="myBtn" src="img/snapchat.png" height="50px" width="50px">
+		  <a href="https://www.instagram.com/feroxsupplyco/"><img src="img/instagram.png" height="50px" width="50px"></a>
+		  <a href="https://twitter.com/feroxsupplyco"><img src="img/twitter.png" height="50px" width="50px"></a>
+		  <a href="https://www.facebook.com/ferox.supplyco"><img src="img/facebook.png" height="50px" width="50px"></a>
+		</div>
+		<div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="img/snapcode.png" height="300px" width="300px">
+        <h1>FeroxSupplyCo</h1>
+      </div>
+    </div>
+    
+    <script>
+      var modal = document.getElementById('myModal');
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal) {
+         modal.style.display = "none";
+        }
+      }
+    </script>
+	</body>
+</html>
